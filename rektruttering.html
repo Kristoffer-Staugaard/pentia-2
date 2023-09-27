@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stearify - Rekruttering</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+  <script src="JavaScript/slider.js" defer></script>
+  <script src="JavaScript/burgermenu.js" defer></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="nav-branding"><img class="nav-logo" src="billeder/logo.png" alt="Stearify logo"></a>
+
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="case.html" class="nav-link">CASES</a>
+      </li>
+      <li class="nav-item">
+        <a href="katalog.html" class="nav-link">YDELSER</a>
+      </li>
+      <li class="nav-item">
+        <a href="om.html" class="nav-link">OM OS</a>
+      </li>
+
+      <li class="nav-item">
+        <div class="nav-btn">
+          <a href="kontakt.html" class="nav-link2">KONTAKT</a>
+        </div>
+      </li>
+    </ul>
+
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+
+    </div>
+  </nav>
+  <header class="header-main">
+    <h1 class="orange">Rektruttering</h1>
+  </header>
+
+  <main>
+    <div class="ydelse-info">
+      <div class="margin-buttom">
+        <h2>Hvordan jeg kan hjælpe</h2>
+      </div>
+      <p>Vi i Stearify ønsker at lavere den bedste ydelse til den bedste pris. Derfor er vi med ansvarlige for din
+        rekruttering af medarbejder. Vi lægger stor værdi i at kunne hjælpe dig med netop dette, og vi har skreddersyet
+        en prisbergner som kan hjælpe dig på vej</p>
+      <br>
+      <p>Gennem vores rekrutteringsproces sikrer vi, at din virksomhed tiltrækker og udvælger de rette medarbejdere. På
+        denne måde garanterer vi en optimal drift og undgår omkostningsfulde fejlansættelser, der kan have negative
+        konsekvenser.</p>
+    </div>
+
+    <div class="pris-regner-wrap">
+      <div class="pris-regner">
+        <div class="margin-buttom">
+          <h2 class="orange">Regn din pris</h2>
+        </div>
+        <p class="white">Prisen starter fra 450 kr. i timen hos mig, og stiger til 700 kr. i timen hvis vi succesfuldt
+          kan finde jer en kvalificeret ansat til jeres stilling.</p>
+        <br>
+        <p class="white">Brug slideren til at regne ud hvad Henriks tid koster</p>
+
+        <div class="slider-wrap">
+
+          <p class="white">Timer</p>
+
+          <div class="slidecontainer">
+            <input type="range" min="0" max="20" class="slider" id="prisSlider">
+          </div>
+
+          <div class="output">
+            <span id="value1">0</span>
+          </div>
+
+        </div>
+
+        <div class="output">
+          <span id="value2">0</span>
+          <p class="white"><span class="pris">,-</span> / For Succesfuld Ansat</p>
+        </div>
+        <p class="gray">Spar 65% hvis du er utilfreds med din ansættelse </p>
+      </div>
+      <div class="pris-regner-btn">
+      <button class="main-btn" onclick="window.location.href='tel:+45 2261 0509';">Ring op</button>
+      <button class="white-btn" onclick="window.location.href='kontakt.html';">Book et møde</button>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footeroverordnet">
+      <div class="footerindhold">
+        <div class="footerommig">
+          <h2>Om Stearify</h2>
+          <p class="footer-tekst">Hos Stearify får du både den personlige opmærksomhed
+            fra et mindre firma og de ressourcer, som normalt kun
+            er tilgængelige hos større virksomheder</p>
+        </div>
+        <div>
+          <h2>Kontakt mig</h2>
+          <p>Tlf: +45 7023 3330</p>
+          <p>E-mail: info@stearify.dk</p>
+          <p>Cvr-nr. 20868872</p>
+        </div>
+        <div> <a href="https://www.linkedin.com/in/henrik-st%C3%A6r-grove-43897167/" target="_blank"><img
+              class="linkedin-logo" src="billeder/linkedin.svg" alt="linkedin logo"></a></div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
